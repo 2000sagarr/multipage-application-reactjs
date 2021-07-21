@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { useParams , Route} from "react-router";
-import Comments from '../components/comments/Comments'
+import Comments from '../components/comments/Comments';
+
 const QuateDetail = () => {
   const params = useParams();
 
